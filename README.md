@@ -7,7 +7,7 @@ An alternative to  i2cdetect
 
 To install iic-scanner on a raspberry pi, use buster lts
 ```bash
-curl https://raw.githubusercontent.com/Tearran/iic-scanner/master/install.bash | bash
+curl https://raw.githubusercontent.com/Tearran/iic-scanner/master/install | bash
 ```
 usege  `iic-scanner <iic dev/#>`
 ```bash
