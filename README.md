@@ -14,8 +14,8 @@ iic-scanner 1
 
 # Contributers
 
-- [muhammadrefa](https://github.com/muhammadrefa) - [python-i2c-scanner](https://github.com/muhammadrefa/python-i2c-scanner)
+- [muhammadrefa](https://github.com/muhammadrefa)
 
-- [tearran](https://github.com/tearran) - https://github.com/Tearran/iic-scanner/blob/master/install.bash
+- [tearran](https://github.com/tearran)
 
-- [kplindegaard](https://github.com/kplindegaard) - [smbus2 library](https://github.com/kplindegaard/smbus2)
+- [kplindegaard](https://github.com/kplindegaard) 
