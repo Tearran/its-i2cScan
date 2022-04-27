@@ -4,6 +4,12 @@
 An alternative to  i2cdetect
 
 download an copy to  /usr/bin/
+enable i2c for yor device
+
+## useage :
+```bash
+iic-scanner 1
+```
 
 # Contributers
 
