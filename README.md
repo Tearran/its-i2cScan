@@ -7,6 +7,7 @@ download an copy to  /usr/bin/
 enable i2c for yor device
 
 ## useage :
+- iic-scanner <device #> 
 ```bash
 iic-scanner 1
 ```
