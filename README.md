@@ -1,5 +1,6 @@
-# Inter-Integrated Circuit - Scanner
 
+# Inter-Integrated Circuit - Scanner
+[![CodeFactor](https://www.codefactor.io/repository/github/tearran/iic-scanner/badge)](https://www.codefactor.io/repository/github/tearran/iic-scanner)
 ## iic-scanner
 An alternative to  i2cdetect
 
