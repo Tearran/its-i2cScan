@@ -19,8 +19,8 @@ iic-scanner 1
 
 # Contributers
 
-- [muhammadrefa](https://github.com/muhammadrefa)
+- [muhammadrefa](https://github.com/muhammadrefa) - [i2c-scanner](https://raw.githubusercontent.com/muhammadrefa/python-i2c-scanner/master/i2c-scanner.py)
 
-- [tearran](https://github.com/tearran)
+- [tearran](https://github.com/tearran) - [python skelly](https://github.com/Tearran/python_skelly.git)
 
-- [kplindegaard](https://github.com/kplindegaard) 
+- [kplindegaard](https://github.com/kplindegaard) -  [smbus2](https://raw.githubusercontent.com/kplindegaard/smbus2/master/smbus2/smbus2.py)
