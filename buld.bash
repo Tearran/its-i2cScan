@@ -13,7 +13,8 @@ cd ./$buildname || ( echo "faild to make $buildname" && exit )
 # download source iis scaner
 wget https://raw.githubusercontent.com/muhammadrefa/python-i2c-scanner/master/i2c-scanner.py
 # comment out unwanted print statments
-sed 's|print("I2C|#print("I2C|'  i2c-scanner > __main__.py
+cp i2c-scanner  __main__.py
+sed -i 's|print("I2C|#print("I2C|'  __main__.py
 sed -i 's|print("Start|#print("Start|'  __main__.py
 sed -i 's|print("End|#print("End|'  __main__.py
 sed -i 's|print(hex(i) + " -> " + res)|print(hex(i) + ", ")|' __main__
