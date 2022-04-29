@@ -14,7 +14,7 @@ sed -i 's|print("End|#print("End|'  __main__.py
 sed -i 's|print(hex(i) + " -> " + res)|print(hex(i) + ", ")|' __main__
 
 wget https://raw.githubusercontent.com/kplindegaard/smbus2/master/smbus2/smbus2.py
-zip -r ../$buildname.zip * 
+zip -r ../$buildname.zip ./* 
 cd ..
 echo '#!/usr/bin/env python' | cat - $buildname.zip > $execName
 sudo install -b -v $execName /usr/bin/
