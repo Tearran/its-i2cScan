@@ -17,7 +17,7 @@ cp i2c-scanner.py  __main__.py
 sed -i 's|print("I2C|#print("I2C|'  __main__.py
 sed -i 's|print("Start|#print("Start|'  __main__.py
 sed -i 's|print("End|#print("End|'  __main__.py
-sed -i 's|print(hex(i) + " -> " + res)|print(hex(i) + ", ")|' __main__
+sed -i 's|print(hex(i) + " -> " + res)|print(hex(i) + ", ")|' __main__.py
 
 #download smbus2 dropin lib
 wget https://raw.githubusercontent.com/kplindegaard/smbus2/master/smbus2/smbus2.py
