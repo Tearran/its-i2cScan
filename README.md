@@ -4,7 +4,24 @@
 ## iic-scanner
 An alternative to  i2cdetect
 
-download an copy to  /usr/bin/
+## requirements:
+- raspberry pi os buster lts
+- zip
+- git
+```bash
+
+sudo apt install zip git
+```
+## enable i2c device 1
+```bash
+sudo raspi-config nonint do_i2c 0
+```
+## git clone this repo and run
+```bash
+bash install.bash
+
+```
+
 enable i2c for yor device
 ## Features :
 - [x] dispaly i2c (csv)
