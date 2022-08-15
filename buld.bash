@@ -21,7 +21,7 @@ wget https://raw.githubusercontent.com/kplindegaard/smbus2/master/smbus2/smbus2.
 zip -r ../$buildname.zip ./* 
 cd ..
 # set the interprater
-echo '#!/usr/bin/env python' | cat - $buildname.zip > $execName
+echo '#!/usr/bin/env python3' | cat - $buildname.zip > $execName
 # install the exicutible
 sudo install -b -v $execName /usr/bin/
 
