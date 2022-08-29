@@ -1,4 +1,5 @@
 #!/bin/bash
+
 {
 # Change to /tmp/ directory to build zip
 cd /tmp/ || ( echo "what not /tmp/" && exit )
