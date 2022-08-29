@@ -1,17 +1,15 @@
 
 # Inter-Integrated Circuit - Scanner
-[![CodeFactor](https://www.codefactor.io/repository/github/tearran/iic-scanner/badge)](https://www.codefactor.io/repository/github/tearran/iic-scanner)
-## iic-scanner
+[![CodeFactor](https://www.codefactor.io/repository/github/tearran/its-i2cscan/badge)](https://www.codefactor.io/repository/github/tearran/iic-scanner)
+## its-i2cscan
+
 An alternative to  i2cdetect
 
 ## requirements:
 - raspberry pi os buster lts
 - zip
 - git
-```bash
 
-sudo apt install zip git
-```
 ## enable i2c device 1
 ```bash
 sudo raspi-config nonint do_i2c 0
@@ -30,9 +28,9 @@ enable i2c for yor device
 - [ ] enable disable i2c
   
 ## useage :
-- iic-scanner <device #> 
+- its-i2cscan <device #> 
 ```bash
-iic-scanner 1
+its-i2cscan 1
 ```
 
 # Contributers
