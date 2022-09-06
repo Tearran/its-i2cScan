@@ -29,7 +29,7 @@
 
 ## Recomended Install
 ### Audit and insatll
-first audit [build.bash](https://raw.githubusercontent.com/Tearran/its-i2cScan/main/buld.bash) or not
+first audit [build.bash](https://raw.githubusercontent.com/Tearran/its-i2cScan/main/build.bash) or not
 
 then run to following onliner
 ```bash
