@@ -33,13 +33,13 @@ first audit [build.bash](https://raw.githubusercontent.com/Tearran/its-i2cScan/m
 
 then run to following onliner
 ```bash
-wget https://raw.githubusercontent.com/Tearran/its-i2cScan/main/buld.bash && bash build.bash
+wget https://raw.githubusercontent.com/Tearran/its-i2cScan/main/build.bash && bash build.bash
 ```
 ## Easy install -not recomended
 only use curl with trused sources
 
 ```bash 
-curl https://raw.githubusercontent.com/Tearran/its-i2cScan/main/buld.bash| bash
+curl https://raw.githubusercontent.com/Tearran/its-i2cScan/main/build.bash| bash
 ```
 ## usage: 
 
