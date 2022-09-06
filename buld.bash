@@ -19,7 +19,7 @@ wget https://raw.githubusercontent.com/kplindegaard/smbus2/master/smbus2/smbus2.
 
 # compress the contents to a zip
 [ !-d /usr/bin/zip ] && sudo apt update && sudo apt install zip
-[ -d /usr/bin/zip ] zip -r ../$buildname.zip ./* 
+[ -d /usr/bin/zip ] && zip -r ../$buildname.zip ./* 
 cd ..
 # set the interprater
 echo '#!/usr/bin/env python3' | cat - $buildname.zip > $execName
