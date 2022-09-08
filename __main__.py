@@ -43,7 +43,7 @@ def scan(bus_num, start=0x03, end=0x78):
                     if hex(i) == "0x75": 
                       res += "Driver: https://github.com/pimoroni/led-shim"
                       print(hex(i) + " -> " + res) 
-                      #os.system(" ( [ -d ~/.local/bin/its-ledShim/ ] && python3 ~/.local/bin/its-ledShim/ & sleep 2 && pkill -f ~/.local/bin/its-ledShim/ ) || echo error" )                        
+                      os.system(" ( [ -d ~/.local/bin/its-ledShim/ ] && python3 ~/.local/bin/its-ledShim/ & sleep 2 && pkill -f ~/.local/bin/its-ledShim/ ) || echo error" )                        
                     #elif hex(i) == "0x75":
                       #os.system(" ( [ -d ~/.local/bin/its-ledShim/ ] && python3 ~/.local/bin/its-ledShim/ & sleep 2 && pkill -f ~/.local/bin/its-ledShim/ ) || echo error" )                        
                     else:
