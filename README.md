@@ -12,26 +12,18 @@
 ## Features :
 - [x] Installs as system package
 - [x] Enables Default I2C bus
-- [x] Identifies avalible i2c devices by hex
-- [x] Tests suported i2c device:  
-  - [x] 0x75 Piramonie ledsim 
-  - [ ] 0x3c SSD1306 OLED display
-  - [ ] 0x5a MLX90614 IR temperature
-  - [ ] bmp280 Temp/Humidity
-  - [ ] 0x1c, 0x46, 0x5c, 0x5f, 0x6a Raspberry pi SenseHat/Asropi
-  
+- [x] Shows attached i2c devices by hex
 
 # build and Install
 ## Build requirments
 - zip 
 - wget (included with target systems)
-- [smbus2](https://raw.githubusercontent.com/kplindegaard/smbus2/master/smbus2/smbus2.py)
 
-## Recomended Install
+## Recomended Install method
 ### Audit and insatll
 first audit [build.bash](https://raw.githubusercontent.com/Tearran/its-i2cScan/main/build.bash) or not
 
-then run to following onliner
+then run to following
 ```bash
 wget https://raw.githubusercontent.com/Tearran/its-i2cScan/main/build.bash && bash build.bash
 ```
@@ -39,7 +31,7 @@ wget https://raw.githubusercontent.com/Tearran/its-i2cScan/main/build.bash && ba
 only use curl with trused sources
 
 ```bash 
-curl https://raw.githubusercontent.com/Tearran/its-i2cScan/main/build.bash| bash
+curl https://raw.githubusercontent.com/Tearran/its-i2cScan/main/build.bash | bash
 ```
 ## usage: 
 
@@ -49,7 +41,7 @@ its-i2cscan 1
 
 May require sudo privleges if i2c is not enabled.
 - Can be replacement for `i2cdetect` from `i2c-tools`
-- Can be use to help enable and install i2c device sofware
+- Can be use to help automate enabling and installing i2c device sofware
 
 # Contributers
 
