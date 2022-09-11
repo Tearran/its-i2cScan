@@ -38,16 +38,8 @@ def scan(bus_num, start=0x03, end=0x78):
         finally:
             if val != 5:    # No device
                 if val == 1:
-                    res = "Available "                                  
-                    # Plug N Play examples            
-                    if hex(i) == "0x75": 
-                      res += "Driver: https://github.com/pimoroni/led-shim"
-                      print(hex(i) + " -> " + res) 
-                      os.system(" ( [ -d ~/.local/bin/its-ledShim/ ] && python3 ~/.local/bin/its-ledShim/ & sleep 2 && pkill -f ~/.local/bin/its-ledShim/ ) || echo error" )                        
-                    #elif hex(i) == "0x75":
-                      #os.system(" ( [ -d ~/.local/bin/its-ledShim/ ] && python3 ~/.local/bin/its-ledShim/ & sleep 2 && pkill -f ~/.local/bin/its-ledShim/ ) || echo error" )                        
-                    else:
-                      print(hex(i) + " -> " + res)
+                    res = "Found "                                           
+                    print(hex(i) + " -> " + res)
                 elif val == 16:
                     res = "Busy "
                     print(hex(i) + " -> " + res)
