@@ -2,12 +2,12 @@
 # its-i2cScan
 [![CodeFactor](https://www.codefactor.io/repository/github/tearran/its-i2cScan/badge)](https://www.codefactor.io/repository/github/tearran/its-i2cScan)
 ## Target OS: 
-- Raspberry pi OS LTS, "Working"
-- Armbian, "Untested"
-- Buildroot, "Untested"
+- Raspberry Pi OS (Legacy), Kernel 5.10.103+
+
+
 ## Target Boards
-- Raspberry pi zero /w/w2, "Working"
-- Banana pi m2 zero, "Untested"
+- Raspberry pi 
+
 
 ## Features :
 - [x] Installs as system package
