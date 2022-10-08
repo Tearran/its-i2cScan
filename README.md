@@ -4,13 +4,10 @@
 ## Target OS: 
 - Raspberry Pi OS (Legacy), Kernel 5.10.103+
 
-
 ## Target Boards
 - Raspberry pi 
 
-
 ## Features :
-- [x] Installs as system package
 - [x] Enables Default I2C bus
 - [x] Shows attached i2c devices by hex
 
