@@ -25,9 +25,9 @@ def scan(bus_num, start=0x03, end=0x78):
         else:
           print("Enable I2C first")
           sys.exit()
-    print("I2C bus       : " + str(bus_num))
-    print("Start address : " + hex(start))
-    print("End address   : " + hex(end) + "\n")
+#    print("I2C bus       : " + str(bus_num))
+#    print("Start address : " + hex(start))
+#    print("End address   : " + hex(end) + "\n")
     
     for i in range(start, end):
         val = 1
