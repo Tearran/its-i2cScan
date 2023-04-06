@@ -22,7 +22,7 @@ first audit [build.bash](https://raw.githubusercontent.com/Tearran/its-i2cScan/m
 
 then run to following
 ```bash
-wget https://raw.githubusercontent.com/Tearran/its-i2cScan/main/build.bash && bash build.bash
+wget -O /tmp/build.bash https://raw.githubusercontent.com/Tearran/its-i2cScan/main/build.bash && bash build.bash
 ```
 ## Easy install -not recomended
 only use curl with trused sources
